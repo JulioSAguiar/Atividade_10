@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont_01 {
+    display: flex;
+    padding: 30px;
+
+}
+
+.item_1 {
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+    box-shadow: -12px 20px  red ;
+    border-style: solid;
+    border-color: red;
+    margin-left: 40px;
+    flex-grow: 1;
+}
+
+.grow_01 {
+    flex-grow: 12;
+}
+
+.grow_02 {
+    flex-grow: 6;
+}
+
+.grow_03 {
+    flex-grow: 15;
+}
